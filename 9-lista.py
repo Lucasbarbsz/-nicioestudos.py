@@ -1,3 +1,4 @@
+'''
 filmMatrix = ["Matrix", 1999, 8.7, True]
 print(filmMatrix)
 
@@ -15,3 +16,10 @@ print(filmsList[:3])
 
 # 4 - Buscar filmes de uma posição em diante
 print(filmsList[1:4])
+'''
+numeros = [5,7,2]
+print(numeros)
+print(numeros [1])
+print(sum(numeros))
+
+

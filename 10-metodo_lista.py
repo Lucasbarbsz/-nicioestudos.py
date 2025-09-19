@@ -1,3 +1,4 @@
+
 filmsList = ["Inception", "The Shawshank Redemption",
              "The Dark Kgnith", "Pulp Fiction", "Interstellar"]
 
@@ -23,3 +24,16 @@ print(filmsCopy)
 # 6 - Remove todos os itens da lista
 filmsList.clear()
 print(filmsList)
+
+#Testes
+filmsList = ['Batman vs Superman', 'Robin']
+FilmsEu = filmsList.copy()
+print(FilmsEu)
+
+filmsList = ['Batman vs Superman', 'Robin']
+FilmsEu = [filmsList[0]] #Transferir somente um dos itens / [0] acessa o elemento na posição 0 da lista (o primeiro número)
+print(FilmsEu)
+
+
+
+
