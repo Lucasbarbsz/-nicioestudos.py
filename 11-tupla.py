@@ -1,3 +1,4 @@
+
 filmsTuple = ("Inception", "The Shawshank Redemption",
              "The Dark Kgnith", "Pulp Fiction", "Interstellar")
 print(type(filmsTuple))
@@ -16,3 +17,9 @@ print(filmsTuple[2:])
 
 # 5 - Recuperar um item da tupla pelo nome
 print(filmsTuple.index("Pulp Fiction"))
+
+cidades = ('Recife', 'Salvador', 'Fortaleza')
+quantidade = len(cidades) #Len -> Contador de elementos
+print(cidades)
+print(cidades[2])
+print(quantidade)

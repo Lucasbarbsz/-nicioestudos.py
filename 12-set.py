@@ -1,3 +1,4 @@
+
 filmsSet = {"Inception", "The Shawshank Redemption",
              "The Dark Kgnith", "Pulp Fiction", "Interstellar"}
 
@@ -18,3 +19,12 @@ print(filmsSet)
 filmsSet.remove(True)
 filmsSet.remove(8.7)
 print(filmsSet)
+
+# adicionando item ao final da lista (Append)
+lista = [1,2,3,4]
+lista.append(5)
+print(lista)
+
+meuset = {1,2,3,4} # O set em Python é uma estrutura de dados que representa um conjunto.
+meuset.add(5) #.add tmb adiciona ao final.
+print(type(meuset))
