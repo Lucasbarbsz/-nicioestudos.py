@@ -1,3 +1,4 @@
+
 import pprint
 
 filmsDict = {
@@ -30,3 +31,23 @@ print(filmsDict["inception"])
 # 3 - Excluir um dicionário
 del filmsDict["the dark knight"]
 pp.pprint(filmsDict)
+
+#Exercício:
+products = {
+    "Arroz": 15.50,
+    "Feijão": 8.90,
+    "Macarrão": 6.75
+}
+#Resolução:
+
+#Imprimir o dicionário=
+print(products)
+
+#O produto mais caro=
+produto_mais_caro = max(products, key=products.get) #vai olhar os valores em vez das chaves.
+print(produto_mais_caro)
+
+# A média=
+media = sum(products.values()) / len(products)  # pega só os valores (preços)
+print(round(media,2)) # Round() retorna apenas o numero de casas decimais que eu quiser
+
