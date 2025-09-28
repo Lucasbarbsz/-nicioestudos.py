@@ -1,3 +1,4 @@
+
 # 1 - Listando valores de 0 a 10 que sejam menores do que 4
 listNumbers = [i for i in range(10) if i < 4]
 print(listNumbers)
@@ -15,7 +16,7 @@ print(moviesWatched)
 
 # 4 - Encontrando um filme pelo nome
 while True:
-    searchName = input("Digite o nome do filme para buscar na lista (ou sair para encerrar):\n")
+    searchName = input("Digite o nome do filme para buscar na lista (ou sair para encerrar):\n").strip() #-> Remove espaços do ínicio ao fim.
     if searchName.lower() == "sair":
         print("Programa Encerrado")
         break
